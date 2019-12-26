@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MyStore</title>
+    <link rel="stylesheet"
+         asp-href-include="/css/*.css" />
+</head>
+<body>
+    <div class="navbar navbar-dark bg-dark" role="navigation">
+        <a class="navbar-brand" href="#">MyStore</a>
+    </div>
+    <div class="row m-1 p-1">
+        <div id="categories" class="col-3">
+            Put Something useful here later
+        </div>
+        <div class="col-9">
+            @RenderBody()
+        </div>
+     </div>
+</body>
+</html>
